@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Arrays and Loops</title>
+    </head>
+    <body>
+        <script>
+            setTimeout(function(){
+                console.log('timeout')
+            },3000);
+
+            setInterval(function(){
+                console.log('interval');
+            }, 3000);
+
+            const arrowFunction = () => {
+                console.log('hello');
+            }
+
+            arrowFunction();
+
+            oneLineArrow = x => x+3;
+            
+            function oneLine (x) {
+                return x+3;
+            }
+
+            console.log (oneLine(5));
+            console.log(oneLineArrow(5));
+
+        </script>
+    </body>
+</html>
